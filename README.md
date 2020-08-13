@@ -2,6 +2,7 @@
     .
     ├── sliding_window              # 
     |   ├── sum_of_subarray.py      # return running sum of each window of size K
+    |   ├── max_sum_of_subarray.py  # return max of sum of subarray K
     ├── LICENSE                     # Apache 2.0
     ├── README.md                   # 
     └ 
