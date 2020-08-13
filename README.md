@@ -1,11 +1,12 @@
 ##### Directory structure and files
     .
-    ├── sliding_window                                     # 
-    |   ├── sum_of_subarray.py                             # return running sum of each window of size K
-    |   ├── max_sum_of_subarray.py                         # return max of sum of subarray K
-    |   ├── smallest_subarray_of_sum_greater_than.py       # 
-    ├── LICENSE                                            # Apache 2.0
-    ├── README.md                                          # 
+    ├── sliding_window                                            # 
+    |   ├── sum_of_subarray.py                                    # return running sum of each window of size K
+    |   ├── max_sum_of_subarray.py                                # return max of sum of subarray K
+    |   ├── smallest_subarray_of_sum_greater_than.py              # 
+    |   ├── longest_substring_with_K_distinct_characters.py       # 
+    ├── LICENSE                                                   # Apache 2.0
+    ├── README.md                                                 # 
     └ 
     
 ### Copyright and license
