@@ -1,9 +1,6 @@
-
-
 # sums_of_subarray
 # find sums of subarrays each of length K
 def sums_of_subarray(K, arr):
-
     # pre loop
     res = []
     s = 0
@@ -23,10 +20,10 @@ def sums_of_subarray(K, arr):
 
 
 def main():
-
-    res = sums_of_subarray(5, [1,2,3,4,5,6,7,8,9,10])
+    res = sums_of_subarray(5, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 
     print(f'{res}')
+
 
 if __name__ == "__main__":
     main()
