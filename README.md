@@ -1,10 +1,13 @@
 ##### Directory structure and files
     .
-    ├── sliding_window                                            # 
+    ├── sliding_window                                            # two moving pointers
     |   ├── sum_of_subarray.py                                    # return running sum of each window of size K
     |   ├── max_sum_of_subarray.py                                # return max of sum of subarray K
     |   ├── smallest_subarray_of_sum_greater_than.py              # 
     |   ├── longest_substring_with_K_distinct_characters.py       # 
+    |   ├── longest_substring_with_no_repeating_characters.py     # @todo
+    ├── merge_intervals                                           #
+    |   ├── merge_overlapping_intervals.py                        # given a set of intervals, merge if overlapping
     ├── LICENSE                                                   # Apache 2.0
     ├── README.md                                                 # 
     └ 
@@ -21,8 +24,10 @@ Code and documentation released under the [Apache 2.0 License](LICENSE)
 - recursion: dissecting a problem into smaller instances of the same problem
 - divide-and-conquer: divide the problem into atomic units,
 
-1. two pointers on both sides O(N)
-- one pointer moving, one following
+1. sliding_window
+- two moving pointers
+- combined with hash maps to find occurrence of characters, permutation of elements
+
 2. fast & slow pointers
 - find middle of linked list
 - find cyclic linkedlist nodes, lenght of the cyclic section
