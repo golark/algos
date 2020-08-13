@@ -8,6 +8,8 @@
     |   ├── longest_substring_with_no_repeating_characters.py     # @todo
     ├── merge_intervals                                           #
     |   ├── merge_overlapping_intervals.py                        # given a set of intervals, merge if overlapping
+    |   ├── intersection_of_intervals.py                          # 
+    |   ├── free_interval.py                                      # @todo https://www.educative.io/courses/grokking-the-coding-interview/YQykDmBnvB0
     ├── LICENSE                                                   # Apache 2.0
     ├── README.md                                                 # 
     └ 

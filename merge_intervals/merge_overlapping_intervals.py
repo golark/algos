@@ -16,22 +16,26 @@ def merge_intervals(intervals):
     intervals.sort(key=lambda x: x.start)
     res = []
 
-    for i in range(len(intervals)):
-        # compare to next and merge if necessary
-        if i+1 < len(intervals):
-            if intervals[i].end >= intervals[i+1].end: # overlapping region
-                res.append(Interval(intervals[i].start,intervals[i+1].end))
-                i = i + 1
-            else:
-                res.append(intervals[i])
-        else:
-            res.append(intervals[i])
+    start = intervals[0].start
+    end = intervals[0].end
+    for i in range(1, len(intervals)):
+
+        # check if overlap
+        if end > intervals[i].start: # overlapping
+            end = intervals[i].end
+        else: # not overlapping
+            # save the last merge
+            res.append(Interval(start, end))
+            start = intervals[i].start
+            end = intervals[i].end
+
+    res.append(Interval(start, end))
 
     return res
 
 
 def main():
-    intervals = [Interval(1,4), Interval(3,4), Interval(6,7)]
+    intervals = [Interval(1,4), Interval(3,4), Interval(6,10), Interval(7,12)]
     res = merge_intervals(intervals)
 
     for i in res:
