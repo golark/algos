@@ -10,6 +10,9 @@
     |   ├── merge_overlapping_intervals.py                        # given a set of intervals, merge if overlapping
     |   ├── intersection_of_intervals.py                          # 
     |   ├── free_interval.py                                      # @todo https://www.educative.io/courses/grokking-the-coding-interview/YQykDmBnvB0
+    ├── linked_list                                               #
+    |   ├── inplace_reversal.py                                   # 
+    |   ├── rotate_by_k.py                                        #
     ├── LICENSE                                                   # Apache 2.0
     ├── README.md                                                 # 
     └ 
