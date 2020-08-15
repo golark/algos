@@ -1,3 +1,6 @@
+algorithms - method for solving problems
+data structures - methods for storing information
+"Good programmers think about data structures and their relationships between them rater than code" Linus Tovalds
 ##### Directory structure and files
     .
     ├── sliding_window                                            # two moving pointers
@@ -15,6 +18,9 @@
     |   ├── rotate_by_k.py                                        #
     ├── fast_slow_pointers                                        # hare & Tortoise algorithm
     |   ├── linked_list_cycle_check.py                            #
+    ├── top_k_elements                                            # heap based algorithms
+    |   ├── top_k_elements.py                                     #
+    |   ├── pair_with_target_sum.py                               # given sorted array, find a pair with target sum
     ├── LICENSE                                                   # Apache 2.0
     ├── README.md                                                 # 
     └ 
@@ -46,7 +52,7 @@ Code and documentation released under the [Apache 2.0 License](LICENSE)
 - find missing duplicate number ( XOR all numbers )
 
 # evaluation
-- Best, Worst, Average Case analysis
+- Best, Worst, Average Case analysisi
 - time/space complexity
 - Asymptotic analysis is time/space complexity asssessment for very large input data set. One example is Big O
 
@@ -66,13 +72,16 @@ Code and documentation released under the [Apache 2.0 License](LICENSE)
 
 # stack
 - abstract data type
-- distinguishing characteristic of a stack is that insertion and removal takes place at the same end
-- ordered as last-in-first-out 
-- main operations:push, pop, peek, isempty
-- Reversing a String/List, Detecting Palindromes
-@todo: generic stack #golang
-@todo: rune conversions in golang
-@todo: stringer interface support
+- ordered as last-in-first-out (LIFO)
+- main operations: push, pop, peek, isempty
+- use case: Reversing a String/List, Detecting Palindromes
+- implementation: 
+1. arrays: need to grow array when size is full or shrink the array, can double when full ( similar to golang slices ), 
+faster insertion time  when not changing the capacity, consumes less space 
+2. linked-list: more space, constant insertion/removal time ( assuming pushin/popping from head ), consumes more space
+
+## stack vs queue
+- stacks are LIFO, queues are FIFO
 
 # linked list
 - start of a linked list is reffered to as "head"
@@ -127,9 +136,24 @@ head -> |      |      | ------> |      |      |
 - depth first or breath first
 
 # sorting
+- callbacks are used for making sorting algorithm generic
+- in Java, "comparable" interfaces are used which has compareTo method
+- in C, function pointers are used
+- in python lambda functions, or formal functions are first class citizens that can be used as a callback
 
-### selection sort
+
+## selection sort
 - find min or max, place and iterate O(n^2)
+
+## insertion sort
+
+## shell sort
+
+## shuffling
+- breaks the sorted list almost like dech shuffling
+
+### knuth shuffle
+
 
 ### bubblesort
 - compare adjacent elements, swap if necessaary, iterate O(n^2)
