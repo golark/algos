@@ -20,7 +20,12 @@ data structures - methods for storing information
     |   ├── linked_list_cycle_check.py                            #
     ├── top_k_elements                                            # heap based algorithms
     |   ├── top_k_elements.py                                     #
+    ├── two_pointers                                              # 
     |   ├── pair_with_target_sum.py                               # given sorted array, find a pair with target sum
+    |   ├── remove_duplicates.py                                  # remove duplicates in sorted array
+    |   ├── triplet_sum_to_zero.py                                # @todo: unsorted array triplets sum to zero
+    |   ├── dutch_national_flag.py                                # @todo: sort array in place of elements 0,1,2
+    |   ├── strings_with_backspaces.py                            # given strings with backspace characters check if they are equal
     ├── LICENSE                                                   # Apache 2.0
     ├── README.md                                                 # 
     └ 
