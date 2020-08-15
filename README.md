@@ -21,7 +21,8 @@ data structures - methods for storing information
     ├── sorting                                                   #
     |   ├── selection_sort.py                                     # 
     |   ├── insertion_sort.py                                     # 
-    |   ├── quick_sort.py                                         # 
+    |   ├── bubble_sort.py                                        # 
+    |   ├── quick_sort.py                                         # @todo 
     ├── top_k_elements                                            # heap based algorithms
     |   ├── top_k_elements.py                                     #
     ├── two_pointers                                              # 
