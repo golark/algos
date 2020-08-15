@@ -1,4 +1,3 @@
-import math
 
 
 # selection_sort
