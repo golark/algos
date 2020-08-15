@@ -28,7 +28,12 @@ data structures - methods for storing information
     |   ├── strings_with_backspaces.py                            # given strings with backspace characters check if they are equal
     |   ├── minimum_window_sort.py                                # @todo: length of the smallest subarray, when sorted will sort the whole array
     ├── tree_breadth_first_search                                 # 
-    |   ├── binary_tree_level_order_traversal.py                  # 
+    |   ├── binary_tree_level_order_traversal.py                  # @todo
+    |   ├── binary_tree_reverse_level_order_traversal.py          # @todo 
+    |   ├── binary_tree_zigzag_order_traversal.py                 # @todo 
+    |   ├── binary_tree_level_average.py                          # 
+    |   ├── binary_tree_connect_level_order_siblings.py           #
+    |   ├── binary_tree_right_view.py                             #
     ├── LICENSE                                                   # Apache 2.0
     ├── README.md                                                 # 
     └ 
