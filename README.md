@@ -3,21 +3,25 @@ data structures - methods for storing information
 "Good programmers think about data structures and their relationships between them rater than code" Linus Tovalds
 ##### Directory structure and files
     .
+    ├── fast_slow_pointers                                        # hare & Tortoise algorithm
+    |   ├── linked_list_cycle_check.py                            #   
+    ├── linked_list                                               #
+    |   ├── inplace_reversal.py                                   # 
+    |   ├── rotate_by_k.py                                        #
+    ├── merge_intervals                                           #
+    |   ├── merge_overlapping_intervals.py                        # given a set of intervals, merge if overlapping
+    |   ├── intersection_of_intervals.py                          # 
+    |   ├── free_interval.py                                      # @todo https://www.educative.io/courses/grokking-the-coding-interview/YQykDmBnvB0
     ├── sliding_window                                            # two moving pointers
     |   ├── sum_of_subarray.py                                    # return running sum of each window of size K
     |   ├── max_sum_of_subarray.py                                # return max of sum of subarray K
     |   ├── smallest_subarray_of_sum_greater_than.py              # 
     |   ├── longest_substring_with_K_distinct_characters.py       # 
     |   ├── longest_substring_with_no_repeating_characters.py     # @todo
-    ├── merge_intervals                                           #
-    |   ├── merge_overlapping_intervals.py                        # given a set of intervals, merge if overlapping
-    |   ├── intersection_of_intervals.py                          # 
-    |   ├── free_interval.py                                      # @todo https://www.educative.io/courses/grokking-the-coding-interview/YQykDmBnvB0
-    ├── linked_list                                               #
-    |   ├── inplace_reversal.py                                   # 
-    |   ├── rotate_by_k.py                                        #
-    ├── fast_slow_pointers                                        # hare & Tortoise algorithm
-    |   ├── linked_list_cycle_check.py                            #
+    ├── sorting                                                   #
+    |   ├── selection_sort.py                                     # 
+    |   ├── insertion_sort.py                                     # 
+    |   ├── quick_sort.py                                         # 
     ├── top_k_elements                                            # heap based algorithms
     |   ├── top_k_elements.py                                     #
     ├── two_pointers                                              # 
@@ -81,7 +85,9 @@ Code and documentation released under the [Apache 2.0 License](LICENSE)
 
 # abstract data type (ADT)
 - defined by behaviour rather than its representation
-- queue, list, stack where we have a set of defined semantics ( behaviours ) but the iternal representation is decouple from the user
+- queue, list, stack where we have a set of defined semantics ( behaviours ) but the internal representation is decouple from the user
+- heaps are data structures that are based on priority queues which is an abstract data type that has 3 defined behaviours: 
+ is_empty, add_element and pop_element 
 
 # stack
 - abstract data type
@@ -180,3 +186,10 @@ head -> |      |      | ------> |      |      |
 @todo pascals algorithm
 @todo eucledian algorithm for greatest common divisor
 @todo: buy and sell stock
+
+# Heap
+- heaps are implementation of priority queues as complete binary trees 
+- complete binary tree: all levels except possibly the deepest one is always full
+- parent node is always either larger or smaller than both of its children as opposed to a binary search tree where
+the left node is smaller than the parent
+ 
