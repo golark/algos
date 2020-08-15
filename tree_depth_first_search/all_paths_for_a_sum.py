@@ -8,28 +8,30 @@ class TreeNode:
 
 # path_sum
 # return True if there is a path with the given sum s
-def path_sum(root, s):
+def all_paths_for_sum(root, s):
 
     # return condition
     # if leaf node and sum is zero
     if root is None:
-        return False
+        return 0
     if root.left is None and root.right is None:
-        return s == root.val
+        if s == root.val:
+            return 1
 
     # recurse
-    return path_sum(root.left, s - root.val) or path_sum(root.right, s-root.val)
+    return all_paths_for_sum(root.left, s - root.val) + all_paths_for_sum(root.right, s-root.val)
 
 
 def main():
-    root = TreeNode(12)
+    root = TreeNode(1)
     root.left = TreeNode(7)
-    root.right = TreeNode(1)
-    root.left.left = TreeNode(9)
-    root.right.left = TreeNode(10)
-    root.right.right = TreeNode(5)
+    root.right = TreeNode(9)
+    root.left.left = TreeNode(4)
+    root.left.right = TreeNode(5)
+    root.right.left = TreeNode(2)
+    root.right.right = TreeNode(7)
 
-    res = path_sum(root, 28)
+    res = all_paths_for_sum(root, 12)
     print(f'{res}')
 
 
