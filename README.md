@@ -24,7 +24,7 @@ data structures - methods for storing information
     |   ├── bubble_sort.py                                        # 
     |   ├── quick_sort.py                                         #  
     ├── top_k_elements                                            # heap based algorithms
-    |   ├── top_k_elements.py                                     #
+    |   ├── top_k_numbers.py                                      #
     ├── two_pointers                                              # 
     |   ├── pair_with_target_sum.py                               # given sorted array, find a pair with target sum
     |   ├── remove_duplicates.py                                  # remove duplicates in sorted array
@@ -182,11 +182,13 @@ head -> |      |      | ------> |      |      |
 @todo
 
 ### quicksort
+
+
+### timsort
 @todo
 
 @todo pascals algorithm
 @todo eucledian algorithm for greatest common divisor
-@todo: buy and sell stock
 
 # Heap
 - heaps are implementation of priority queues as complete binary trees 
