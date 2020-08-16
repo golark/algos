@@ -9,9 +9,6 @@ def bubble_sort(arr):
                 arr[j+1], arr[j] = arr[j], arr[j+1]
 
 
-
-
-
 def main():
 
     arr = [5,6,8,1,2,4,5,10]
