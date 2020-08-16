@@ -1,5 +1,6 @@
 import heapq
 
+
 # kth_max_number
 # heap based implementation
 def kth_max_number(seq, k):
@@ -23,7 +24,6 @@ def kth_max_number(seq, k):
 
 
 def main():
-
     seq = [10,6,3,1,0,19,18,2]
 
     res = kth_max_number(seq, 3)

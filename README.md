@@ -24,6 +24,9 @@ data structures - methods for storing information
     |   ├── bubble_sort.py                                        # 
     |   ├── quick_sort.py                                         #  
     ├── top_k_elements                                            # heap based algorithms
+    |   ├── k_closest_numbers.py                                  # k closest numbers to given integer X
+    |   ├── kth_maximum_number.py                                 #
+    |   ├── min_k_numbers.py                                      #
     |   ├── top_k_numbers.py                                      #
     ├── two_pointers                                              # 
     |   ├── pair_with_target_sum.py                               # given sorted array, find a pair with target sum
