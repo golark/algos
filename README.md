@@ -11,34 +11,36 @@ data structures - methods for storing information
     ├── merge_intervals                                           #
     |   ├── merge_overlapping_intervals.py                        # given a set of intervals, merge if overlapping
     |   ├── intersection_of_intervals.py                          # 
-    |   ├── free_interval.py                                      # @todo https://www.educative.io/courses/grokking-the-coding-interview/YQykDmBnvB0
+    |   ├── free_interval.py                                      # @redo https://www.educative.io/courses/grokking-the-coding-interview/YQykDmBnvB0
     ├── sliding_window                                            # two moving pointers
     |   ├── sum_of_subarray.py                                    # return running sum of each window of size K
     |   ├── max_sum_of_subarray.py                                # return max of sum of subarray K
     |   ├── smallest_subarray_of_sum_greater_than.py              # 
     |   ├── longest_substring_with_K_distinct_characters.py       # 
-    |   ├── longest_substring_with_no_repeating_characters.py     # @todo
+    |   ├── longest_substring_with_no_repeating_characters.py     # @redo
     ├── sorting                                                   #
     |   ├── selection_sort.py                                     # 
     |   ├── insertion_sort.py                                     # 
     |   ├── bubble_sort.py                                        # 
-    |   ├── quick_sort.py                                         #  
+    |   ├── quick_sort.py                                         # @redo 
     ├── top_k_elements                                            # heap based algorithms
-    |   ├── k_closest_numbers.py                                  # k closest numbers to given integer X
+    |   ├── k_closest_numbers.py                                  # @redo k closest numbers to given integer X
     |   ├── kth_maximum_number.py                                 #
     |   ├── min_k_numbers.py                                      #
     |   ├── top_k_numbers.py                                      #
     ├── two_pointers                                              # 
     |   ├── pair_with_target_sum.py                               # given sorted array, find a pair with target sum
     |   ├── remove_duplicates.py                                  # remove duplicates in sorted array
-    |   ├── triplet_sum_to_zero.py                                # @todo: unsorted array triplets sum to zero
-    |   ├── dutch_national_flag.py                                # @todo: sort array in place of elements 0,1,2
+    |   ├── triplet_sum_to_zero.py                                # @redo: unsorted array triplets sum to zero
+    |   ├── dutch_national_flag.py                                # @redo: sort array in place of elements 0,1,2
     |   ├── strings_with_backspaces.py                            # given strings with backspace characters check if they are equal
-    |   ├── minimum_window_sort.py                                # @todo: length of the smallest subarray, when sorted will sort the whole array
+    |   ├── minimum_window_sort.py                                # @redo: length of the smallest subarray, when sorted will sort the whole array
+    |   ├── maximum_profit.py                                     # @redo
+    |   ├── dutch_national_flag.py                                # @redo
     ├── tree_breadth_first_search                                 # 
-    |   ├── binary_tree_level_order_traversal.py                  # @todo
-    |   ├── binary_tree_reverse_level_order_traversal.py          # @todo 
-    |   ├── binary_tree_zigzag_order_traversal.py                 # @todo 
+    |   ├── binary_tree_level_order_traversal.py                  # @redo
+    |   ├── binary_tree_reverse_level_order_traversal.py          # @redo 
+    |   ├── binary_tree_zigzag_order_traversal.py                 # @redo 
     |   ├── binary_tree_level_average.py                          # 
     |   ├── binary_tree_connect_level_order_siblings.py           #
     |   ├── binary_tree_right_view.py                             #
@@ -64,7 +66,7 @@ Code and documentation released under the [Apache 2.0 License](LICENSE)
 
 2. fast & slow pointers
 - find middle of linked list
-- find cyclic linkedlist nodes, lenght of the cyclic section
+- find cyclic linkedlist nodes, length of the cyclic section
 3. Sliding Window
 - smallest subarray with sum larger than k
 - string containing anagram of pattern ( dictionary with sliding window)
