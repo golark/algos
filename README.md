@@ -12,6 +12,8 @@ data structures - methods for storing information
     |   ├── merge_overlapping_intervals.py                        # given a set of intervals, merge if overlapping
     |   ├── intersection_of_intervals.py                          # 
     |   ├── free_interval.py                                      # @redo https://www.educative.io/courses/grokking-the-coding-interview/YQykDmBnvB0
+    ├── sequence_calculation                                      #
+    |   ├── nth_fibonacci.py                                      # 
     ├── sliding_window                                            # two moving pointers
     |   ├── sum_of_subarray.py                                    # return running sum of each window of size K
     |   ├── max_sum_of_subarray.py                                # return max of sum of subarray K
