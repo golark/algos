@@ -49,6 +49,7 @@ data structures - methods for storing information
     |   ├── all_paths_for_a_sum.py                                # return number of paths with given sum 
     |   ├── binary_tree_path_sym.py                               # check if there is a path with given sum
     |   ├── closest_value_in_bst.py                               # find closest value to target in BST
+    |   ├── branch_sums.py                                        # return a list of branch sums of BST
     ├── LICENSE                                                   # Apache 2.0
     ├── README.md                                                 # 
     └ 
