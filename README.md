@@ -45,6 +45,10 @@ data structures - methods for storing information
     |   ├── binary_tree_level_average.py                          # 
     |   ├── binary_tree_connect_level_order_siblings.py           #
     |   ├── binary_tree_right_view.py                             #
+    ├── tree_depth_first_search                                   # 
+    |   ├── all_paths_for_a_sum.py                                # return number of paths with given sum 
+    |   ├── binary_tree_path_sym.py                               # check if there is a path with given sum
+    |   ├── closest_value_in_bst.py                               # find closest value to target in BST
     ├── LICENSE                                                   # Apache 2.0
     ├── README.md                                                 # 
     └ 
