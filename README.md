@@ -3,6 +3,10 @@ data structures - methods for storing information
 "Good programmers think about data structures and their relationships between them rater than code" Linus Tovalds
 ##### Directory structure and files
     .
+    ├── binary_search                                             #
+    |   ├── search_for_number.py                                  # @redo 
+    |   ├── smallest_greater_letter.py                            #   
+    |   ├── smallest_greater_number.py                            #   
     ├── fast_slow_pointers                                        # hare & Tortoise algorithm
     |   ├── linked_list_cycle_check.py                            #   
     ├── linked_list                                               #
@@ -14,6 +18,7 @@ data structures - methods for storing information
     |   ├── free_interval.py                                      # @redo https://www.educative.io/courses/grokking-the-coding-interview/YQykDmBnvB0
     ├── sequence_calculation                                      #
     |   ├── nth_fibonacci.py                                      # 
+    |   ├── product_sum.py                                        # [x+y]=x+y [x,[y,z]]=x+2*(y+z)...
     ├── sliding_window                                            # two moving pointers
     |   ├── sum_of_subarray.py                                    # return running sum of each window of size K
     |   ├── max_sum_of_subarray.py                                # return max of sum of subarray K
@@ -29,7 +34,7 @@ data structures - methods for storing information
     |   ├── k_closest_numbers.py                                  # @redo k closest numbers to given integer X
     |   ├── kth_maximum_number.py                                 #
     |   ├── min_k_numbers.py                                      #
-    |   ├── top_k_numbers.py                                      #
+    |   ├── top_k_numbers.py                                      # @redo
     ├── two_pointers                                              # 
     |   ├── pair_with_target_sum.py                               # given sorted array, find a pair with target sum
     |   ├── two_numbers_target_sum.py                             # similar to pair_with_target_sum but unsorted array
