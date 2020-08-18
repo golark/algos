@@ -30,6 +30,7 @@ data structures - methods for storing information
     |   ├── top_k_numbers.py                                      #
     ├── two_pointers                                              # 
     |   ├── pair_with_target_sum.py                               # given sorted array, find a pair with target sum
+    |   ├── two_numbers_target_sum.py                             # similar to pair_with_target_sum but unsorted array
     |   ├── remove_duplicates.py                                  # remove duplicates in sorted array
     |   ├── triplet_sum_to_zero.py                                # @redo: unsorted array triplets sum to zero
     |   ├── dutch_national_flag.py                                # @redo: sort array in place of elements 0,1,2
