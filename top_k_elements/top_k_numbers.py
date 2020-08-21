@@ -2,7 +2,7 @@ import heapq
 
 
 # find_k_largest_numbers
-#  heap based approach
+# heap based approach
 def find_k_largest_numbers(nums, k):
     min_heap = []
 

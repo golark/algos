@@ -3,12 +3,17 @@ data structures - methods for storing information
 "Good programmers think about data structures and their relationships between them rater than code" Linus Tovalds
 ##### Directory structure and files
     .
-    ├── binary_search                                             #
-    |   ├── search_for_number.py                                  # @redo 
-    |   ├── smallest_greater_letter.py                            #   
-    |   ├── smallest_greater_number.py                            #   
+    ├── binary_search                                             # divide and counquer search
+    |   ├── search_for_number.py                                  # 
+    |   ├── smallest_greater_letter.py                            #  
+    |   ├── smallest_greater_number.py                            # 
+    ├── cyclic_sort                                               # sort numbers run from 1 to n 
+    |   ├── cyclic_sort.py                                        #   
+    |   ├── find_all_missing_numbers.py                           #   
+    |   ├── find_duplicate_numbers.py                             # 
+    |   ├── find_missing_number.py                                # 
     ├── fast_slow_pointers                                        # hare & Tortoise algorithm
-    |   ├── linked_list_cycle_check.py                            #   
+    |   ├── linked_list_cycle_check.py                            #  
     ├── linked_list                                               #
     |   ├── inplace_reversal.py                                   # 
     |   ├── rotate_by_k.py                                        #
@@ -17,7 +22,7 @@ data structures - methods for storing information
     |   ├── intersection_of_intervals.py                          # 
     |   ├── free_interval.py                                      # @redo https://www.educative.io/courses/grokking-the-coding-interview/YQykDmBnvB0
     ├── sequence_calculation                                      #
-    |   ├── nth_fibonacci.py                                      # 
+    |   ├── nth_fibonacci.py                                      #  
     |   ├── product_sum.py                                        # [x+y]=x+y [x,[y,z]]=x+2*(y+z)...
     ├── sliding_window                                            # two moving pointers
     |   ├── sum_of_subarray.py                                    # return running sum of each window of size K
@@ -31,32 +36,33 @@ data structures - methods for storing information
     |   ├── bubble_sort.py                                        # 
     |   ├── quick_sort.py                                         # @redo 
     ├── top_k_elements                                            # heap based algorithms
-    |   ├── k_closest_numbers.py                                  # @redo k closest numbers to given integer X
-    |   ├── kth_maximum_number.py                                 #
-    |   ├── min_k_numbers.py                                      #
-    |   ├── top_k_numbers.py                                      # @redo
-    ├── two_pointers                                              # 
-    |   ├── pair_with_target_sum.py                               # given sorted array, find a pair with target sum
-    |   ├── two_numbers_target_sum.py                             # similar to pair_with_target_sum but unsorted array
-    |   ├── remove_duplicates.py                                  # remove duplicates in sorted array
-    |   ├── triplet_sum_to_zero.py                                # @redo: unsorted array triplets sum to zero
-    |   ├── dutch_national_flag.py                                # @redo: sort array in place of elements 0,1,2
-    |   ├── strings_with_backspaces.py                            # given strings with backspace characters check if they are equal
-    |   ├── minimum_window_sort.py                                # @redo: length of the smallest subarray, when sorted will sort the whole array
-    |   ├── maximum_profit.py                                     # @redo
-    |   ├── dutch_national_flag.py                                # @redo
+    |   ├── k_closest_numbers.py                                  # k closest numbers to given integer X
+    |   ├── kth_maximum_number.py                                 # 
+    |   ├── min_k_numbers.py                                      # 
+    |   ├── top_k_frequent_numbers.py                             # 
+    |   ├── top_k_numbers.py                                      # 
     ├── tree_breadth_first_search                                 # 
-    |   ├── binary_tree_level_order_traversal.py                  # @redo
-    |   ├── binary_tree_reverse_level_order_traversal.py          # @redo 
+    |   ├── binary_tree_level_order_traversal.py                  # 
+    |   ├── binary_tree_reverse_level_order_traversal.py          #  
     |   ├── binary_tree_zigzag_order_traversal.py                 # @redo 
     |   ├── binary_tree_level_average.py                          # 
-    |   ├── binary_tree_connect_level_order_siblings.py           #
-    |   ├── binary_tree_right_view.py                             #
+    |   ├── binary_tree_connect_level_order_siblings.py           # 
+    |   ├── binary_tree_right_view.py                             # 
     ├── tree_depth_first_search                                   # 
     |   ├── all_paths_for_a_sum.py                                # return number of paths with given sum 
     |   ├── binary_tree_path_sym.py                               # check if there is a path with given sum
     |   ├── closest_value_in_bst.py                               # find closest value to target in BST
     |   ├── branch_sums.py                                        # return a list of branch sums of BST
+    |   ├── flip_sideways.py                                      # flip binary tree sideways
+    ├── two_pointers                                              # 
+    |   ├── pair_with_target_sum.py                               # given sorted array, find a pair with target sum
+    |   ├── two_numbers_target_sum.py                             # similar to pair_with_target_sum but unsorted array
+    |   ├── remove_duplicates.py                                  # remove duplicates in sorted array
+    |   ├── triplet_sum_to_zero.py                                # @redo: unsorted array triplets sum to zero
+    |   ├── dutch_national_flag.py                                # sort array in place consisting of elements 0,1,2
+    |   ├── strings_with_backspaces.py                            # given strings with backspace characters check if they are equal
+    |   ├── minimum_window_sort.py                                # length of the smallest subarray, when sorted will sort the whole array
+    |   ├── maximum_profit.py                                     # 
     ├── LICENSE                                                   # Apache 2.0
     ├── README.md                                                 # 
     └ 

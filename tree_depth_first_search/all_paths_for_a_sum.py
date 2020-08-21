@@ -7,7 +7,7 @@ class TreeNode:
 
 
 # path_sum
-# return True if there is a path with the given sum s
+# return the number of paths with given sum
 def all_paths_for_sum(root, s):
 
     # return condition

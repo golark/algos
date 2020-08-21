@@ -11,8 +11,6 @@ def smallest_greater_letter(seq, letter):
     while start <= end:
         middle = (end - start) // 2 + start
 
-        print(f'{ord(seq[middle]) - ord(letter)}')
-
         if ord(seq[middle]) > ord(letter) and (ord(seq[middle]) - ord(letter)) < min_diff:
             min_diff = ord(seq[middle]) - ord(letter)
             res = seq[middle]
@@ -30,6 +28,7 @@ def main():
     res = smallest_greater_letter(seq, 'f')
 
     print(f'smallest greater letter = {res}')
+
 
 if __name__ == "__main__":
     main()
