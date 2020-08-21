@@ -23,13 +23,14 @@ data structures - methods for storing information
     |   ├── free_interval.py                                      # @redo https://www.educative.io/courses/grokking-the-coding-interview/YQykDmBnvB0
     ├── sequence_calculation                                      #
     |   ├── nth_fibonacci.py                                      #  
+    |   ├── monotonic_array.py                                    # sequence is all increasing or decreasing 
     |   ├── product_sum.py                                        # [x+y]=x+y [x,[y,z]]=x+2*(y+z)...
     ├── sliding_window                                            # two moving pointers
     |   ├── sum_of_subarray.py                                    # return running sum of each window of size K
     |   ├── max_sum_of_subarray.py                                # return max of sum of subarray K
     |   ├── smallest_subarray_of_sum_greater_than.py              # 
     |   ├── longest_substring_with_K_distinct_characters.py       # 
-    |   ├── longest_substring_with_no_repeating_characters.py     # @redo
+    |   ├── longest_substring_with_no_repeating_characters.py     #
     ├── sorting                                                   #
     |   ├── selection_sort.py                                     # 
     |   ├── insertion_sort.py                                     # 
@@ -58,7 +59,7 @@ data structures - methods for storing information
     |   ├── pair_with_target_sum.py                               # given sorted array, find a pair with target sum
     |   ├── two_numbers_target_sum.py                             # similar to pair_with_target_sum but unsorted array
     |   ├── remove_duplicates.py                                  # remove duplicates in sorted array
-    |   ├── triplet_sum_to_zero.py                                # @redo: unsorted array triplets sum to zero
+    |   ├── triplet_sum_to_zero.py                                # unsorted array triplets sum to zero
     |   ├── dutch_national_flag.py                                # sort array in place consisting of elements 0,1,2
     |   ├── strings_with_backspaces.py                            # given strings with backspace characters check if they are equal
     |   ├── minimum_window_sort.py                                # length of the smallest subarray, when sorted will sort the whole array
