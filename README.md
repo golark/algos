@@ -22,6 +22,7 @@ data structures - methods for storing information
     |   ├── intersection_of_intervals.py                          # 
     |   ├── free_interval.py                                      # @redo https://www.educative.io/courses/grokking-the-coding-interview/YQykDmBnvB0
     ├── sequence_calculation                                      #
+    |   ├── max_sum_non_adjacent_elements.py                      #   
     |   ├── nth_fibonacci.py                                      #  
     |   ├── monotonic_array.py                                    # sequence is all increasing or decreasing 
     |   ├── product_sum.py                                        # [x+y]=x+y [x,[y,z]]=x+2*(y+z)...
