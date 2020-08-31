@@ -28,3 +28,15 @@ func Test_MaxProfit(t *testing.T) {
 	t.Logf("\t%s\tshould return %v",succeed, profit)
 }
 
+func Test_twoNumberTargetSum(t *testing.T) {
+
+	nums := []int{10,5,2,1,0,-1,10,50,60}
+
+	t.Logf("Test:\twhen trying find if 2 numbers in %v sum up to %v", nums, 11)
+	res := twopointers.TwoNumberTargetSum(nums, 11)
+
+	if res != true {
+		t.Fatalf("\t%s\tshouldn't return %v", failed, res)
+	}
+	t.Logf("\t%s\tshould return %v",succeed, res)
+}
