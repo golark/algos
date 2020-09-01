@@ -14,7 +14,7 @@ data structures - methods for storing information
     |   ├── find_missing_number.py                                # 
     ├── fast_slow_pointers                                        # hare & Tortoise algorithm
     |   ├── linked_list_cycle_check.py                            #  
-    ├── linked_list                                               #
+    ├── linkedlist                                                #
     |   ├── inplace_reversal.py                                   # 
     |   ├── rotate_by_k.py                                        #
     ├── merge_intervals                                           #
