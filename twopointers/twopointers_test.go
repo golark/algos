@@ -1,7 +1,7 @@
 package twopointers_test
 
 import (
-	twopointers "github.com/golark/algos/two_pointers"
+	twopointers "github.com/golark/algos/twopointers"
 	log "github.com/sirupsen/logrus"
 	"testing"
 )
@@ -40,3 +40,28 @@ func Test_twoNumberTargetSum(t *testing.T) {
 	}
 	t.Logf("\t%s\tshould return %v",succeed, res)
 }
+
+func Test_IsPalindrome(t *testing.T) {
+
+	s := "abbaabba"
+
+	t.Logf("Test:\twhen trying chec if %v is a palindrome", s)
+	res := twopointers.IsPalindrome(s)
+
+	if res != true {
+		t.Fatalf("\t%s\tshouldn't return %v", failed, res)
+	}
+	t.Logf("\t%s\tshould return %v",succeed, res)
+
+
+	s = "abcdefgh"
+
+	t.Logf("Test:\twhen trying chec if %v is a palindrome", s)
+	res = twopointers.IsPalindrome(s)
+
+	if res != false {
+		t.Fatalf("\t%s\tshouldn't return %v", failed, res)
+	}
+	t.Logf("\t%s\tshould return %v",succeed, res)
+}
+

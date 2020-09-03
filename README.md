@@ -39,6 +39,8 @@ data structures - methods for storing information
     |   ├── quick_sort.py                                         # @redo 
     ├── sequencecalculation                                       #
     |   ├── smallestdifference.go                                 # smallest difference between 2 unsorted arrays
+    ├── stack                                                     #
+    |   ├── palindromne.go                                        # check if given string is a palindrome
     ├── top_k_elements                                            # heap based algorithms
     |   ├── k_closest_numbers.py                                  # k closest numbers to given integer X
     |   ├── kth_maximum_number.py                                 # 
