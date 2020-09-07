@@ -59,6 +59,7 @@ data structures - methods for storing information
     |   ├── binary_tree_path_sym.py                               # check if there is a path with given sum
     |   ├── closest_value_in_bst.py                               # find closest value to target in BST
     |   ├── branch_sums.py                                        # return a list of branch sums of BST
+    |   ├── branch_sums.go                                        # 
     |   ├── flip_sideways.py                                      # flip binary tree sideways
     ├── two_pointers                                              # 
     |   ├── pair_with_target_sum.py                               # given sorted array, find a pair with target sum

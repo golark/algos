@@ -65,3 +65,16 @@ func Test_IsPalindrome(t *testing.T) {
 	t.Logf("\t%s\tshould return %v",succeed, res)
 }
 
+func Test_MinimumWindowSort(t *testing.T) {
+
+	s := []int{4, 5, 1, 10, 11, 12, 14, 5, 20}
+
+	t.Logf("Test:\twhen trying to find unsorted section of %v", s)
+	res := twopointers.MinimumWindowSort(s)
+
+	if len(res) != 6 {
+		t.Fatalf("\t%s\tshouldn't return %v", failed, res)
+	}
+	t.Logf("\t%s\tshould return %v", succeed, res)
+
+}
