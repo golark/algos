@@ -50,7 +50,7 @@
     ├── tree_breadth_first_search                                 # 
     |   ├── binary_tree_level_order_traversal.py                  # 
     |   ├── binary_tree_reverse_level_order_traversal.py          #  
-    |   ├── binary_tree_zigzag_order_traversal.py                 # @redo 
+    |   ├── binary_tree_zigzag_order_traversal.py                 # 
     |   ├── binary_tree_level_average.py                          # 
     |   ├── binary_tree_connect_level_order_siblings.py           # 
     |   ├── binary_tree_right_view.py                             # 
