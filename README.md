@@ -1,8 +1,7 @@
-Algorithms are method for solving problems and data structures are methods for storing information
-Combination of the two might just solve your next challenge
+- Algorithms are method for solving problems and data structures are methods for storing information. Combination of the two might just solve your next challenge
+- Implementations are in Go and Python
 
-
-# Algorithms
+## Algorithms
     .
     ├── binary_search                                             # divide and counquer search
     |   ├── search_for_number.py                                  # search for the given number in BST
@@ -79,28 +78,28 @@ Combination of the two might just solve your next challenge
 
 Code and documentation released under the [Apache 2.0 License](LICENSE) 
  
-# algorithm strategy
+## algorithm strategy
 - brute force: considering all the possibilities without a regard for performance or space improvements
 - greedy: choose most obvious, immediate benefit at each stage of the algorithm
 - recursion: dissecting a problem into smaller instances of the same problem
 - divide-and-conquer: divide the problem into atomic units,
 
-# complexity/space evaluation
+## complexity/space evaluation
 - Best, Worst, Average Case analysis
 - Asymptotic analysis is time/space complexity assessment for very large input data set. One example is Big O
 
-## Big O
+### Big O
 - drop multiplicative constants, drop all but highest order polynomial, for example complexity 5n^2+2n+3 ~= O(n^2)
 - Two algorithms with  O(n) will be withing a constant factor from each other, for practical purposes they are considered equally good
 - Big O is preferred to Big Theta or other evaluation metrics due to better worst-case analysis
 
-# abstract data type (ADT)
+### abstract data type (ADT)
 - defined by behaviour rather than its representation
 - queue, list, stack where we have a set of defined semantics ( behaviours ) but the internal representation is decouple from the user
 - heaps are data structures that are based on priority queues which is an abstract data type that has 3 defined behaviours: 
  is_empty, add_element and pop_element 
 
-# stack
+## stack
 - is a abstract data type
 - ordered as last-in-first-out (LIFO)
 - main operations: push, pop, peek, isempty
@@ -111,7 +110,7 @@ faster insertion time  when not changing the capacity, consumes less space
 2. linked-list: more space, constant insertion/removal time ( assuming pushin/popping from head ), consumes more space
 - stacks are LIFO, queues are FIFO
 
-# linked list
+## linked list
 - start of a linked list is referred to as "head"
 - each node contains Data and references to the next/previous nodes
 - the last node is null ( linked list termination ), in Python (None)
@@ -122,7 +121,7 @@ head -> |      |      | ------> |      |      |
         |      |      |         |      |      |
          ------ ------           ------ ------
 
-## array vs linked list
+### array vs linked list
 
   |                | array | linked list |
   | -----          | ----- | ------      |         
@@ -132,7 +131,7 @@ head -> |      |      | ------> |      |      |
 - insertion into linked list is O(1) since only manuplation of a couple of pointers
 - arrays are contagious memory which provides more predictable access time, linked list access time is less predictable
 
-# Binary Tree
+## Binary Tree
 - tree data structure where each node has 2 children nodes
 - depth of a node:  the length of path from node to root
 - height of a tree: the length of path from node to deepest node
