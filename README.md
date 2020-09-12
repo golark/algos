@@ -5,18 +5,18 @@
     .
     ├── binary_search                                             # divide and counquer search
     |   ├── search_for_number.py                                  # search for the given number in BST
-    |   ├── smallest_greater_letter.py                            #
-    |   ├── smallest_greater_number.py                            # 
+    |   ├── smallest_greater_letter.py                            # 
+    |   ├── smallest_greater_number.py                            # smallest number in sequence greater than threshold
     ├── cyclic_sort                                               # sort numbers run from 1 to n 
-    |   ├── cyclic_sort.py                                        #    
-    |   ├── find_all_missing_numbers.py                           #   
-    |   ├── find_duplicate_numbers.py                             # 
-    |   ├── find_missing_number.py                                # 
+    |   ├── cyclic_sort.py                                        # sort given numbers 1 to n  
+    |   ├── find_all_missing_numbers.py                           # find all missing in sequence 1 to n  
+    |   ├── find_duplicate_numbers.py                             # determine duplicates in sequence 1 to n
+    |   ├── find_missing_number.py                                # find single mising number in sequence 1 to n
     ├── fast_slow_pointers                                        # hare & Tortoise algorithm
-    |   ├── linked_list_cycle_check.py                            #  
+    |   ├── linked_list_cycle_check.py                            # determines if linked list has cyclic reference 
     ├── linkedlist                                                #
-    |   ├── inplace_reversal.py                                   # 
-    |   ├── rotate_by_k.py                                        #
+    |   ├── inplace_reversal.py                                   # reverse single linked list without using extra space
+    |   ├── rotate_by_k.py                                        # rotate left or right by k
     ├── merge_intervals                                           #
     |   ├── merge_overlapping_intervals.py                        # given a set of intervals, merge if overlapping
     |   ├── intersection_of_intervals.py                          # 
