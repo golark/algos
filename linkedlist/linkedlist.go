@@ -1,4 +1,4 @@
-package main
+package linkedlist
 
 import "fmt"
 
@@ -24,6 +24,20 @@ func NewLinkedList(data []interface{}) *node {
 	}
 
 	return &head
+}
+
+// Size
+// returns the Size of the linkedlist
+// O(n) time, O(1) space
+func Size(head *node) int {
+
+	n := 0
+	node := head
+	for ;node != nil; node=node.next{
+		n += 1
+	}
+
+	return  n
 }
 
 // Display
@@ -61,15 +75,4 @@ func Reverse(head *node) *node {
 	// handle tail
 	n.next = p
 	return n
-}
-
-func main() {
-
-	data := []interface{}{1,2,3,4,5}
-	head := NewLinkedList(data)
-	Display(head)
-
-	head = Reverse(head)
-	Display(head)
-
 }
