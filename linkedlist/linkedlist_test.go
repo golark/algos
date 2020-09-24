@@ -28,6 +28,15 @@ func Test_LinkedListSize(t *testing.T) {
 
 func Test_RemoteKthToLastNode(t *testing.T) {
 
-}
+	data := []interface{}{1,2,3,4,5}
+	head := linkedlist.NewLinkedList(data)
+	linkedlist.Display(head)
 
+	t.Logf("Test:\twhen trying to remove %v'th to last node",4)
+	linkedlist.RemoveKthNodeToTail(head, 4)
+	linkedlist.Display(head)
+
+
+
+}
 
