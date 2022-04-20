@@ -1,33 +1,28 @@
 package sorting
 
-// findLargest
-// returns the largest items index
-func findLargest(s []int) int {
+import "log"
 
-	idx := 0
-	largest := s[0]
-	for i,v := range s {
-		if v > largest {
-			largest = v
-			idx = i
+func insertionSort(seq []int) {
+
+	// traverse sequence
+
+	for i, _ := range seq {
+
+		// sort i'th element
+		idx := i
+		for idx > 0 && seq[idx-1] > seq[idx] {
+			seq[idx-1], seq[idx] = seq[idx], seq[idx-1]
+			idx--
 		}
 	}
-
-	return idx
 }
 
-// InsertionSort
-// sorts in-place with InsertionSort algorithm
-// 1. find largest
-// 2. swap
-func InsertionSort(s []int) {
 
-	for i := range s {
+func main() {
 
-		// step 1 - find largest
-		idx := findLargest(s[i:])
+	seq := []int{5,7,8,1,4,6}
 
-		// step 2 - swap
-		s[i], s[idx+i] = s[idx+i], s[i]
-	}
+	insertionSort(seq)
+
+	log.Printf("%v", seq)
 }
